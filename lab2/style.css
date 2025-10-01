@@ -48,15 +48,15 @@ body {
 
 .red-t {
     background-color: #ff5959;
-    transform: translate(200px, 30px);
-  }
-  
-  .green-t {
+    transform: translate(100%, 15%);
+}
+
+.green-t {
     background-color: #3ab571;
-    transform: translate(275px, -45px);
-  }
-  
-  .blue-t {
+    transform: translate(137.5%, -22.5%);
+}
+
+.blue-t {
     background-color: #408cc3;
-    transform: translate(125px, -250px);
-  }
+    transform: translate(62.5%, -125%);
+}
