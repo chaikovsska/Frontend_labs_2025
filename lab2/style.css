@@ -53,10 +53,11 @@ body {
 
 .green-t {
   background-color: #3ab571;
-  transform: translate(137.5%, -22.5%);
+  transform: translate(137.5%, -25.5%);
 }
 
 .blue-t {
   background-color: #408cc3;
   transform: translate(62.5%, -125%);
+
 }
