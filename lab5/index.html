@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, лабораторна робота, студент, інформація">
+    <meta name="description" content="Лабораторна робота №1. Особиста веб-сторінка студента.">
+    <title>Чайковська Софія Володимирівна, гр. ІА-32, лабораторна робота №5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Завдання 1</h2>
+    <form id="infoForm">
+        <label>ПІБ (ТТТТТТ Т.Т.)</label>
+        <input type="text" id="pib" placeholder="Чайковська С.В.">
+        <small>Прізвище, пробіл, ініціали з крапками (напр.: Іваненко І.І.)</small>
+        <div class="error-text" id="pibError"></div>
+
+        <label>Група (ТТ-ЧЧ)</label>
+        <input type="text" id="group" placeholder="ІА-32">
+        <small>Дві літери, дефіс, дві цифри (напр.: ІА-32)</small>
+        <div class="error-text" id="groupError"></div>
+
+        <label>Факультет (ТТТТ)</label>
+        <input type="text" id="faculty" placeholder="ФІОТ">
+        <small>4 великі літери (напр.: ФІОТ)</small>
+        <div class="error-text" id="facultyError"></div>
+
+        <label>Адреса (м. ТТТТТТ)</label>
+        <input type="text" id="address" placeholder="м. Київ">
+        <small>м. + назва міста з великої літери (напр.: м. Львів)</small>
+        <div class="error-text" id="addressError"></div>
+
+        <label>Telegram (@Т_ТТТТТ)</label>
+        <input type="text" id="telegram" placeholder="@sofiia_ch">
+        <small>Починається з @, далі латинські літери / підкреслення / цифри</small>
+        <div class="error-text" id="telegramError"></div>
+
+        <button type="button" id="submitBtn">Підтвердити</button>
+    </form>
+
+    <h2>Завдання 2</h2>
+    <p style="text-align:center;">Виберіть колір для клітинки №15:</p>
+    <input type="color" id="colorPicker" value="#87CEEB">
+    <table id="myTable"></table>
+    
+    <script src="script.js"></script>
+</body>
+</html>
