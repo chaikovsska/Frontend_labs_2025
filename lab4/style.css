@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.color1 {
+    background-color: rgb(254, 203, 115);
+    color: rgb(0, 42, 255);
+}
+
+.color2 {
+    background-color: rgb(144, 250, 234);
+    color: rgb(255, 45, 125);
+}
+
+.color1::marker,
+.color2::marker {
+    color: black;
+}
+
+#image-container {
+    margin: 20px 0;
+}
+
+#image-controls button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
