@@ -1,6 +1,5 @@
-// src/App.js
 import './App.css';
-import GoodsCard from './components/GoodsCard'; // Імпортуємо наш компонент
+import GoodsCard from './components/GoodsCard'; 
 
 import img1 from './assets/Chanel_Coco_Mademoiselle.jpg';
 import img2 from './assets/Dior_Rouge_Dior_Lipstick 999.jpg';
@@ -10,7 +9,6 @@ import img5 from './assets/Loreal_Paris_Voluminous_Lash_Paradise_Mascara copy.jp
 import img6 from './assets/Yves_Saint_Laurent_Libre_Eau_de_Parfum.jpg';
 
 function App() {
-  // Масив даних (імітація бази даних)
   const beautyProducts = [
     {
       id: 1,
