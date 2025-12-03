@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+/* Класи для зміни кольору (Завдання 1) */
+.color1 {
+  background-color: rgb(254, 203, 115);
+  color: rgb(0, 42, 255);
+}
+
+.color2 {
+  background-color: rgb(144, 250, 234);
+  color: rgb(255, 45, 125);
+}
+
+/* Контейнери для зображень */
+.image-wrapper {
+  margin: 20px 0;
+  text-align: center; /* Центрування для краси */
+}
+
+.added-image {
+  display: block;
+  margin: 10px auto;
+}
+
+.controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.controls button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.controls button:hover {
+  background-color: #e0e0e0;
+}
