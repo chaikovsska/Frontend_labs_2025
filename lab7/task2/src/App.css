@@ -1,17 +1,12 @@
-/* src/App.css */
-
-/* Контейнер для всієї галереї */
 .gallery {
   display: grid;
-  /* Робимо 3 колонки однакової ширини */
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px; /* Відступи між картками */
+  gap: 30px;
   padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Стилі для самої картки */
 .goods-card {
   border: 1px solid #eee;
   border-radius: 15px;
@@ -20,22 +15,17 @@
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   background-color: #fff;
   
-  /* Плавність анімації для всіх змін */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
 
-/* ЕФЕКТ ПРИ НАВЕДЕННІ (HOVER) */
 .goods-card:hover {
-  /* Збільшуємо картку на 5% */
   transform: scale(1.05);
-  /* Додаємо трохи тіні для об'єму */
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
-/* Стилі картинки */
 .image-container {
-  height: 250px; /* Фіксована висота, щоб все було рівно */
+  height: 250px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,11 +41,10 @@
 
 .price {
   font-weight: bold;
-  color: #e91e63; /* Рожевий колір для б'юті тематики */
+  color: #e91e63; 
   font-size: 1.2rem;
 }
 
-/* Адаптив: якщо екран малий, робимо по 1 в ряд */
 @media (max-width: 768px) {
   .gallery {
     grid-template-columns: 1fr;

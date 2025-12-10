@@ -4,7 +4,6 @@ body {
   margin: 20px;
 }
 
-/* Класи для зміни кольору (Завдання 1) */
 .color1 {
   background-color: rgb(254, 203, 115);
   color: rgb(0, 42, 255);
@@ -15,10 +14,9 @@ body {
   color: rgb(255, 45, 125);
 }
 
-/* Контейнери для зображень */
 .image-wrapper {
   margin: 20px 0;
-  text-align: center; /* Центрування для краси */
+  text-align: center;
 }
 
 .added-image {
